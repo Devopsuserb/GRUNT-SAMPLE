@@ -1,0 +1,25 @@
+{
+  "name": "awesome",
+  "version": "0.0.0",
+  "description": "Sample project of Grunt on Jenkins",
+  "main": "awesome.js",
+  "scripts": {
+    "test": "grunt testem"
+  },
+  "keywords": [
+    "jenkins",
+    "grunt",
+    "sample"
+  ],
+  "author": "sideroad",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-concat": "~0.2.0",
+    "grunt-contrib-jshint": "~0.4.3",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-testem": "~0.3.6",
+    "grunt-qunit-cov": "~0.3.2",
+    "grunt-plato": "~0.2.0"
+  }
+}
